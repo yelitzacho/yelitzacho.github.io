@@ -9,9 +9,6 @@ $(document).ready(function() {
     loopBottom: true,
     sectionSelector: 'section'
   });
-});
-
-$(document).ready(function () {
 
   $(window).scroll(function(e){
       var scrolled = $(window).scrollTop();
@@ -24,4 +21,5 @@ $(document).ready(function () {
     var scrolled = $(window).scrollTop();
     $('#parallax').css('background-positionY',(scrolled * -0.5)+'px');
   };
+
 });
