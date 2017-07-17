@@ -1,0 +1,149 @@
+@media (min-width: 992px){
+    .img-responsive{
+        width: auto !important;
+        height: 65vh !important;
+    }
+}
+/*==Clases reutilizadas==*/
+section h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+section p{
+    font-family: 'Muli', sans-serif;
+    color: #333;
+    text-align: center;
+}
+section {
+  text-align: center;
+  color: white;
+  transition: 0s linear;
+  transition-property: background-position;
+  height: 500px;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    margin: 0 20px;
+}
+/*==Hero==*/
+.principal-title{
+    border: 14px #333 solid;
+}
+.principal-title h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 30px;
+}
+#fp-nav.right {
+    right: 4px ;
+    margin-top: -30px;
+}
+#parallax{
+  background-image: url('../assets/prototype.jpg');
+  background-color: black;
+  background-attachment: fixed;
+  background-position-y: -0.2;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+/*==About==*/
+
+
+
+/*==Skills==*/
+.tech-skills{
+    margin-bottom: 50px;
+}
+/*==Iconos==*/
+.dev-icon{
+    font-size: 60px;
+    line-height: 1.5em;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.dev-icon .tooltip-skills{
+    width: 125px;
+    height: 50px;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    border-radius: 3px;
+    background-color: #3f3f3f;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 11px;
+    line-height: 50px;
+    color: #fff;
+    text-align: center;
+    transform: translateX(-50%) scale(0);
+    transform-origin: bottom center;
+    transition: all .4s cubic-bezier(1,0,.4,1);
+}
+.dev-icon:hover i {
+    color: #3f3f3f;
+    cursor: pointer;
+    -webkit-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    transition: all .3s linear;
+}
+.dev-icon:hover .tooltip-skills{
+    top: -70px;
+    transition: all .3s cubic-bezier(0,0,.2,1.4);
+    transform: translateX(-50%) scale(1);
+}
+.dev-icon .tooltip-skills:after {
+    width: 0;
+    height: 0;
+    border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
+    border-top: 11px solid #3f3f3f;
+    content: '';
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: -9px;
+    transform: translateX(-50%);
+}
+/*==Work==*/
+.fp-tableCell{
+    height: 80vh !important;
+}
+.carousel-control.right, .carousel-control.left {
+    background-image: none; 
+}
+.glyphicon-chevron-left{
+    color: #333;
+}
+.glyphicon-chevron-right{
+    color: #333;
+}
+.item:hover{
+    background-color: transparent;
+}
+.item .text-center{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.img-initial{
+    background-image: url(../assets/prototype.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+/*==Contact==*/
