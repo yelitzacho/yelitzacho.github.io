@@ -59,6 +59,15 @@ section {
   background-size: cover;
   -o-background-size: cover;
 }
+.containerLogo{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.containerLogo img{
+    width: 70px;
+}
+
 /*==About==*/
 
 
