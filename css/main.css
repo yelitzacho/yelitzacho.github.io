@@ -174,3 +174,20 @@ section {
 #contact .buttons div a{
     display: none !important;
 }
+.formFooter{
+    display: none !important;
+}
+.formFooter-heightMask{
+    display: none !important;
+}
+@media (min-width: 768px) {
+    .dev-icon {
+    font-size: 80px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container-dev-icon .row {
+    margin: 0 20%;
+    }
+}
