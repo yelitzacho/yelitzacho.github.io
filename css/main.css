@@ -165,3 +165,12 @@ section {
     width: 100vw;
 }
 /*==Contact==*/
+#contact #form1 #header{
+    display: none;
+}
+.info[class] {
+    display: none !important;
+}
+#contact .buttons div a{
+    display: none !important;
+}
