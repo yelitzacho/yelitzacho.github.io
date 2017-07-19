@@ -107,14 +107,52 @@ section{
     transform-origin: bottom center;
     transition: all .4s cubic-bezier(1,0,.4,1);
 }
-.dev-icon:hover i {
+.dev-icon i{
     color: #3f3f3f;
+}
+.dev-icon:hover i {
     cursor: pointer;
-    -webkit-transition: all .3s linear;
-    -o-transition: all .3s linear;
-    -ms-transition: all .3s linear;
-    -moz-transition: all .3s linear;
-    transition: all .3s linear;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    -ms-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    transition: all .2s linear;
+}
+.dev-icon .devicon-css3-plain:hover{
+  color: #3d8fc6;
+}
+.dev-icon .devicon-html5-plain:hover{
+  color: #e54d26;
+}
+.dev-icon .devicon-javascript-plain:hover{
+  color: #f0db4f;
+}
+.dev-icon .devicon-jquery-plain-wordmark:hover{
+  color: #0769ad;
+}
+.dev-icon .devicon-illustrator-plain:hover{
+  color: #faa625;
+}
+.dev-icon .devicon-photoshop-plain:hover{
+  color: #80b5e2;
+}
+.dev-icon .devicon-github-plain:hover{
+  color: #181616;
+}
+.dev-icon .devicon-trello-plain:hover{
+  color: #23719f;
+}
+.dev-icon .devicon-bootstrap-plain:hover{
+  color: #59407f;
+}
+.dev-icon .devicon-foundation-plain:hover{
+  color: #008cba;
+}
+.dev-icon .devicon-heroku-plain:hover{
+  color: #6762a6;
+}
+.dev-icon .devicon-nodejs-plain:hover{
+  color: #83cd29;
 }
 .dev-icon:hover .tooltip-skills{
     top: -70px;
