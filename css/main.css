@@ -79,6 +79,20 @@ section{
 .text-about{
     margin-bottom: 20px;
 }
+.text-about a{
+  color: #fff;
+}
+.text-about a:hover{
+  color: #333;
+}
+.text-about .btn{
+  background-color: #333;
+  margin-top: 10px;
+}
+.text-about .btn:hover{
+  background-color: #fff;
+  border: 2px #333 solid;
+}
 /*==Skills==*/
 .tech-skills{
     margin-bottom: 50px;
