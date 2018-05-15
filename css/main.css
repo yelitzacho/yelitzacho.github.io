@@ -39,7 +39,7 @@ section{
 }
 /*==Hero==*/
 .principal-title{
-    border: 14px #333 solid;
+    border: 8px #333 solid;
 }
 .principal-title h2{
     font-family: 'Montserrat', sans-serif;
@@ -168,6 +168,15 @@ section{
 .dev-icon .devicon-nodejs-plain:hover{
   color: #83cd29;
 }
+.dev-icon .devicon-intellij-plain:hover{
+    color: #136BA2;
+}
+.dev-icon .devicon-git-plain:hover{
+    color: #f34f29;
+}
+.dev-icon .devicon-sass-original:hover{
+    color: #c69;
+}
 .dev-icon:hover .tooltip-skills{
     top: -70px;
     transition: all .3s cubic-bezier(0,0,.2,1.4);
@@ -233,6 +242,9 @@ section{
 .formFooter-heightMask{
     display: none !important;
 }
+.hidden{
+    display: none;
+}
 @media (min-width: 768px) {
     .dev-icon {
     font-size: 100px;
@@ -251,4 +263,48 @@ section{
   .containerLogo img{
       width: 50px;
   }
+}
+
+@media (max-width: 400px) {
+    .containerLogo img {
+        width: 35px;
+    }
+    section h2{
+        font-size: 32px;
+    }
+}
+.icon-phone_iphone{
+    font-size: 30px;
+    color: #525252;
+}
+.icon-mail_outline {
+    font-size: 30px;
+    color: #525252;
+}
+.icon-linkedin2{
+    font-size: 30px;
+    color: #525252;
+    padding-left:10px;
+    padding-right:10px;
+}
+.icon-dribbble{
+    font-size: 30px;
+    color: #525252;
+    padding-left:10px;
+    padding-right:10px;
+}
+.icon-flickr2{
+    font-size: 30px;
+    color: #525252;
+    padding-left:10px;
+    padding-right:10px;
+}
+.icon-linkedin2:hover{
+    color: #0376b6;
+}
+.icon-dribbble:hover{
+    color: #eb4c89;
+}
+.icon-flickr2:hover{
+    color: #0063ca;
 }

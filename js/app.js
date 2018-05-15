@@ -23,3 +23,7 @@ $(document).ready(function() {
   };
 
 });
+
+$('#input_7').click(function () {
+    $('#contactform').addClass('hidden');
+});
