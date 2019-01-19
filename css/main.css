@@ -263,6 +263,9 @@ section{
   .containerLogo img{
       width: 50px;
   }
+  .img-responsive{
+      display: none;
+    }
 }
 
 @media (max-width: 400px) {
